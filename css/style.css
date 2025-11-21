@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #eee;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.hero {
+  padding: 80px;
+  text-align: center;
+  background: #f3f3f3;
+}
+
+.hq {
+  padding: 40px;
+  text-align: center;
+}
+
+.cities {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.city {
+  width: 100px;
+  height: 100px;
+  border: 2px solid gray;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-section {
+  padding: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
